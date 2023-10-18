@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form name="fencuesta" action="encuesta.php" method="post">
+        <h3>Lenguajes de programacion</h3>
+        <input type="radio" name="lprog" id="icss" value="css" id="icss">
+        <label for="icss">Lenguaje CSS</label>
+        <input type="radio" name="lprog" id="iprog" value="html" id="ihtml">
+        <label for="i">Lenguaje HTML<label>
+        <input type="radio" name="lprog" id="iphp" value="php" id="iphp" checked>
+        <label for="iphp">Lenguaje PHP</label>
+            br><br><br>
+
+         <h3>Medio Transporte</h3>
+        <input type="checkbox" name="ntrans[]" id="ibus" value="bus">
+        <label for="ibus">Autobus</label>
+        <input type="checkbox" name="ntrans[]" id="itranvia" value="tranvia">
+        <label for="itranvia">Tranvia</label>
+        <input type="checkbox" name="ntrans[]" id="icoche" value="coche">
+        <label for="icoche">Coche</label>
+
+        <br><br><br>
+
+
+
+
+        <input type="submit" name="ienviar" value="Enviar">
+
+
+
+
+    </form>
+</body>
+
+</html>
